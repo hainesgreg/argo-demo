@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: mygregapp
-        image: greghaines/argo-demo:0.0.1
+        image: greghaines/demo-app:0.0.1
         ports:
-        - containerPort: 80
+        - containerPort: 5001
