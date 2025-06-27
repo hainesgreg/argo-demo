@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mywebapp-deployment
+  name: mygregapp-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: mywebapp
+      app: mygregapp
   template:
     metadata:
       labels:
-        app: mywebapp
+        app: mygregapp
     spec:
       containers:
-      - name: mywebapp
-        image: 1nfosecsingh/mywebapp:v1.2
+      - name: mygregapp
+        image: greghaines/argo-demo:0.0.1
         ports:
         - containerPort: 80
