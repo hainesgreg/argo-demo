@@ -1,3 +1,0 @@
-kustomize:
-  images:
-  - 1nfosecsingh/mywebapp:v1.3
