@@ -11,7 +11,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/hainesgreg/argo-demo
+    repoURL: https://github.com/infosecsingh/cluster
     targetRevision: HEAD
     path: .
 
