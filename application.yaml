@@ -3,6 +3,10 @@ kind: Application
 metadata:
   name: argo-image-updater-demo
   namespace: argocd
+  # annotations:
+  #   argocd-image-updater.argoproj.io/image-list: 1nfosecsingh/mywebapp:v1.2
+  #   argocd-image-updater.argoproj.io/write-back-method: git
+  #   argocd-image-updater.argoproj.io/mywebapp.update-strategy: semver
 spec:
   project: default
 
