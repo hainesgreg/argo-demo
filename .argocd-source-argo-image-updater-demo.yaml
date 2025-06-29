@@ -1,3 +1,0 @@
-kustomize:
-  images:
-  - greghaines/argo-demo:0.0.2
