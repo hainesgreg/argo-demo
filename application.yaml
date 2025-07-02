@@ -3,6 +3,8 @@ kind: Application
 metadata:
   name: argo-image-updater-demo
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
   annotations:
     argocd-image-updater.argoproj.io/image-list: greghaines/demo-app:0.0.x
     argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/git-creds
