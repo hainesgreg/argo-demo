@@ -1,3 +1,3 @@
 kustomize:
   images:
-  - greghaines/demo-app:0.0.2
+  - greghaines/demo-app:0.0.3
